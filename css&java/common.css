@@ -30,23 +30,26 @@ body {
   background-color: var(--bg);
 }
 /* floating start */
-.floating {
-  position: fixed;
-  z-index: 999;
-  top: 180px;
-  width: 50px;
-  right: 5%;
+@media (min-width: 601px) {
+  .floating {
+    position: fixed;
+    z-index: 999;
+    top: 180px;
+    width: 50px;
+    right: 5%;
+  }
+  .floating > div {
+    /* border: 1px solid blue; */
+    margin-bottom: 2px;
+    cursor: pointer;
+  }
+  .floating img {
+    width: 100%;
+    background-color: var(--main-c1);
+    padding: 0.5rem;
+  }
 }
-.floating > div {
-  /* border: 1px solid blue; */
-  margin-bottom: 2px;
-  cursor: pointer;
-}
-.floating img {
-  width: 100%;
-  background-color: var(--main-c1);
-  padding: 0.5rem;
-}
+
 /* floating end */
 
 /* header start */
@@ -59,6 +62,7 @@ body {
   border-top: 10px solid var(--main-c1);
   z-index: 999;
 }
+
 .hd nav {
   /* border: 1px solid blue; */
   display: flex;
@@ -75,8 +79,8 @@ body {
 }
 nav .gnb > li {
   /* border: 1px solid orange; */
-  padding: 0.5rem 2rem;
-  margin: 0 2rem;
+  padding: 0.5rem 3rem;
+  margin: 0 1rem;
   position: relative;
 }
 
@@ -95,11 +99,11 @@ nav .gnb > li:hover .sub {
 .sub {
   border-radius: 10px;
   position: absolute;
-  width: 130%;
+  width: 110%;
   height: 0px;
   overflow: hidden;
   top: 100%;
-  left: -10%;
+  left: -5%;
   background-color: var(--main-c2);
   transition: 0.2s;
   /* border: 1px solid green; */
@@ -120,7 +124,7 @@ nav .gnb > li:hover .sub {
 }
 nav .ham {
   font-size: 40px;
-  /* display: none; */
+  display: none;
 }
 /* header end */
 
@@ -438,3 +442,33 @@ nav .ham {
   font-weight: bold;
 }
 /* footer end */
+
+/* media query */
+@media (max-width: 600px) {
+  .floating {
+    display: none;
+  }
+  .hd nav .gnb {
+    display: none;
+  }
+  .hd .ham {
+    display: block;
+  }
+  .sec1 .pg1 {
+    bottom: 55%;
+    margin-bottom: 3rem;
+  }
+  .sec1 .sec1_nav {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .sec1 .sec1_nav a {
+    /* border: 1px solid orange; */
+    padding-bottom: 3rem;
+  }
+  .sec1 .sec1_nav > a::before {
+    display: none;
+  }
+}
