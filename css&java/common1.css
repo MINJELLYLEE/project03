@@ -1,0 +1,45 @@
+@charset "utf-8";
+.mw {
+  max-width: 1400px;
+  width: calc(100% - 2rem);
+  margin: auto;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
+@font-face {
+  font-family: "SunBatang-Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: "SunBatang-Light";
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  --main-c1: #522b1c;
+  --main-c2: #e84a36;
+  --font-c1: #1b1b1b;
+  --font-c2: #4c4c4c;
+  --font-c3: #ffffff;
+  --bg: #f7efec;
+}
+
+.floating {
+  position: fixed;
+  z-index: 999;
+  top: 180px;
+  width: 50px;
+  right: 5%;
+}
+.floating > div {
+  /* border: 1px solid blue; */
+  margin-bottom: 2px;
+}
+.floating img {
+  width: 100%;
+  background-color: var(--main-c1);
+  padding: 0.5rem;
+}
