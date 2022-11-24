@@ -517,12 +517,9 @@ nav .ham {
     flex-direction: column;
   }
   .sec3_con li p {
-    font-size: 25px;
-    position: absolute;
-    top: 35%;
     left: 40%;
-    color: var(--font-c3);
   }
+
   .sec3_img {
     padding-top: 1rem;
   }
@@ -563,5 +560,53 @@ nav .ham {
     text-align: left;
     font-size: 14px;
     line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .sec3_title {
+    text-align: center;
+  }
+  .sec3 .sec3_con {
+    flex-direction: column;
+  }
+  .sec3_con li p {
+    left: 40%;
+  }
+
+  .sec3_img {
+    padding-top: 1rem;
+  }
+  .sec3_img img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 900px) {
+  .floating {
+    display: none;
+  }
+  .hd nav .gnb {
+    display: none;
+  }
+  .hd .ham {
+    display: block;
+  }
+
+  /* sec1 */
+  .sec1 .pg1 {
+    bottom: 55%;
+    margin-bottom: 3rem;
+  }
+  .sec1 .sec1_nav {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .sec1 .sec1_nav a {
+    padding-bottom: 3rem;
+  }
+  .sec1 .sec1_nav > a::before {
+    display: none;
   }
 }
