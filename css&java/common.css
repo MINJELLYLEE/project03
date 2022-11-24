@@ -609,4 +609,25 @@ nav .ham {
   .sec1 .sec1_nav > a::before {
     display: none;
   }
+  .sec4_title {
+    text-align: center;
+  }
+  .sec4 .sec4_con {
+    /* border: 1px solid green; */
+    padding-left: 18%;
+    flex-direction: column;
+  }
+  .sec4_con li {
+    width: 100%;
+  }
+
+  .sec4_img {
+    height: 80px;
+  }
+  .sec4_box .notice {
+    left: 30%;
+  }
+  .sec4_box .instagram {
+    left: 25%;
+  }
 }
