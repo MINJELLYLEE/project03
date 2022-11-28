@@ -23,13 +23,13 @@
 
     <!-- header start -->
     <header id="header" class="hd">
-      <nav>
+      <nav class="mw">
         <h1 class="logo">
-          <a>
-            <img src="./img/logo_header-removebg-preview.png" alt="" />
-          </a>
+          <a href="#"
+            ><img src="./img/logo_header-removebg-preview.png" alt=""
+          /></a>
         </h1>
-        <ul class="main">
+        <ul class="gnb">
           <li>
             <a href="#">HANS</a>
             <ul class="sub">
@@ -65,12 +65,17 @@
             </ul>
           </li>
         </ul>
+        <div class="ham">
+          <a href="#">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
       </nav>
     </header>
     <!-- header end -->
 
     <!-- section1 start -->
-    <section class="sec1">
+    <section class="sec1 mw">
       <div class="sec1_title">
         <h2>HANS <span>MENU</span></h2>
         <p>한스의 메뉴들을 소개합니다.</p>
@@ -80,12 +85,12 @@
         <p>케이크</p>
       </div>
       <div class="sec1_btn">
-        <button>Premium</button>
+        <button class="on">Premium</button>
         <button>Seasonal</button>
         <button>Classic</button>
       </div>
       <div class="sec1_slide">
-        <article class="premium">
+        <article class="premium on">
           <div class="swiper slide1_1">
             <ul class="swiper-wrapper">
               <li class="swiper-slide">
@@ -891,7 +896,7 @@
               </li>
             </ul>
           </div>
-          <div class="swiper-pagination pg4-2"></div>
+          <div class="swiper-pagination pg4_2"></div>
           <div class="swiper-button-next next4_2"></div>
           <div class="swiper-button-prev prev4_2"></div>
         </article>
@@ -1025,7 +1030,7 @@
                       <span>Hans만의 특제 블랜딩 원두로 추출한</span>
                       <span>에스프레소</span>
                     </p>
-                    <div class="dec2_2price">
+                    <div class="dec3_2price">
                       <p>Price</p>
                       <p>4,000원</p>
                     </div>
@@ -1043,7 +1048,7 @@
                       <span>진한 에스프레소에 물을 부어 만든</span>
                       <span>아메리카노</span>
                     </p>
-                    <div class="dec2_2price">
+                    <div class="dec3_2price">
                       <p>Price</p>
                       <p>4,000원</p>
                     </div>
@@ -1052,7 +1057,7 @@
               </li>
               <li class="swiper-slide">
                 <div class="sec3_2img">
-                  <img src="./img/drink/메뉴커피.png" alt="" />
+                  <img src="./img/drink/메뉴커피1.png" alt="" />
                 </div>
                 <div class="sec3_2dec">
                   <div class="dec3_2title">
@@ -1064,7 +1069,7 @@
                       >
                       <span>카페라떼</span>
                     </p>
-                    <div class="dec2_2price">
+                    <div class="dec3_2price">
                       <p>Price</p>
                       <p>4,500원</p>
                     </div>
@@ -1085,7 +1090,7 @@
                       <span>카페라떼에 향긋한 바닐라 시럽을 첨가한</span>
                       <span>바닐라라떼</span>
                     </p>
-                    <div class="dec2_2price">
+                    <div class="dec3_2price">
                       <p>Price</p>
                       <p>5,000원</p>
                     </div>
@@ -1106,7 +1111,7 @@
                       <span>카페라떼에 달콤한 초콜릿 시럽이 들어간</span>
                       <span>카페모카</span>
                     </p>
-                    <div class="dec2_2price">
+                    <div class="dec3_2price">
                       <p>Price</p>
                       <p>5,000원</p>
                     </div>
@@ -1115,6 +1120,7 @@
               </li>
             </ul>
           </div>
+          <div class="swiper-pagination pg1_3"></div>
           <div class="swiper-button-next next1_3"></div>
           <div class="swiper-button-prev prev1_3"></div>
         </article>
@@ -1132,7 +1138,7 @@
                       <span>고소한 우유에 향긋한 녹차를 더한</span>
                       <span>녹차라떼</span>
                     </p>
-                    <div class="dec2_2price">
+                    <div class="dec3_2price">
                       <p>Price</p>
                       <p>5,000원</p>
                     </div>
@@ -1155,7 +1161,7 @@
                       >
                       <span>바나나 밀크쉐이크</span>
                     </p>
-                    <div class="dec2_2price">
+                    <div class="dec3_2price">
                       <p>Price</p>
                       <p>5,500원</p>
                     </div>
@@ -1173,7 +1179,7 @@
                       <span>신선하고 달콤한 딸기로 만든</span>
                       <span>딸기스무디</span>
                     </p>
-                    <div class="dec2_2price">
+                    <div class="dec3_2price">
                       <p>Price</p>
                       <p>5,500원</p>
                     </div>
@@ -1191,7 +1197,7 @@
                       <span>신선하고 달콤한 블루베리로 만든</span>
                       <span>블루베리스무디</span>
                     </p>
-                    <div class="dec2_2price">
+                    <div class="dec3_2price">
                       <p>Price</p>
                       <p>5,500원</p>
                     </div>
@@ -1206,10 +1212,10 @@
                   <div class="dec3_2title">
                     <p>망고스무디</p>
                     <p>
-                      <span>달콤한 망고를 잘 갈아낸</span>
+                      <span>달콤한 망고를 곱게 갈아낸</span>
                       <span>망고스무디</span>
                     </p>
-                    <div class="dec2_2price">
+                    <div class="dec3_2price">
                       <p>Price</p>
                       <p>5,500원</p>
                     </div>
@@ -1218,28 +1224,133 @@
               </li>
             </ul>
           </div>
+          <div class="swiper-pagination pg2_3"></div>
           <div class="swiper-button-next next2_3"></div>
           <div class="swiper-button-prev prev2_3"></div>
         </article>
         <article class="tea">
           <div class="swiper slide3_3">
             <ul class="swiper-wrapper">
-              <li class="swiper-slide">Slide 1</li>
-              <li class="swiper-slide">Slide 2</li>
-              <li class="swiper-slide">Slide 3</li>
+              <li class="swiper-slide">
+                <div class="sec3_2img">
+                  <img src="./img/drinK/홍차.png" alt="" />
+                </div>
+                <div class="sec3_2dec">
+                  <div class="dec3_2title">
+                    <p>오가닉 얼그레이</p>
+                    <p>
+                      <span>진하게 우려내 향긋한</span>
+                      <span>오가닉 얼그레이</span>
+                    </p>
+                    <div class="dec3_2price">
+                      <p>Price</p>
+                      <p>4,000원</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="sec3_2img">
+                  <img src="./img/drink/루이보스1.png" alt="" />
+                </div>
+                <div class="sec3_2dec">
+                  <div class="dec3_2title">
+                    <p>오가닉 페퍼민트 루이보스</p>
+                    <p>
+                      <span>시원하고 상쾌한 페퍼민트향의</span>
+                      <span>오가닉 페퍼민트 루이보스</span>
+                    </p>
+                    <div class="dec3_2price">
+                      <p>Price</p>
+                      <p>4,000원</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="sec3_2img">
+                  <img src="./img/drink/캐모마일.png" alt="" />
+                </div>
+                <div class="sec3_2dec">
+                  <div class="dec3_2title">
+                    <p>오가닉 캐모마일</p>
+                    <p>
+                      <span>부드러운 캐모마일 향의</span>
+                      <span>오가닉 캐모마일</span>
+                    </p>
+                    <div class="dec3_2price">
+                      <p>Price</p>
+                      <p>4,000원</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
+          <div class="swiper-pagination pg3_3"></div>
           <div class="swiper-button-next next3_3"></div>
           <div class="swiper-button-prev prev3_3"></div>
         </article>
         <article class="seasonal">
           <div class="swiper slide4_3">
             <ul class="swiper-wrapper">
-              <li class="swiper-slide">Slide 1</li>
-              <li class="swiper-slide">Slide 2</li>
-              <li class="swiper-slide">Slide 3</li>
+              <li class="swiper-slide">
+                <div class="sec3_2img">
+                  <img src="./img/drink/수박주스.png" alt="" />
+                </div>
+                <div class="sec3_2dec">
+                  <div class="dec3_2title">
+                    <p>수박주스</p>
+                    <p>
+                      <span>고당도 수박을 그대로 갈아 신선하고 달콤한</span>
+                      <span>수박주스</span>
+                    </p>
+                    <div class="dec3_2price">
+                      <p>Price</p>
+                      <p>6,000원</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="sec3_2img">
+                  <img src="./img/drink/파인애플주스.png" alt="" />
+                </div>
+                <div class="sec3_2dec">
+                  <div class="dec3_2title">
+                    <p>파인애플주스</p>
+                    <p>
+                      <span>새콤달콤한 열대과일 본연의 그 맛</span>
+                      <span>파인애플주스</span>
+                    </p>
+                    <div class="dec3_2price">
+                      <p>Price</p>
+                      <p>6,000원</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div class="sec3_2img">
+                  <img src="./img/drink/딸기에이드.png" alt="" />
+                </div>
+                <div class="sec3_2dec">
+                  <div class="dec3_2title">
+                    <p>딸기에이드</p>
+                    <p>
+                      <span>제철딸기의 상큼하고 달콤함 모두 담은</span>
+                      <span>딸기에이드</span>
+                    </p>
+                    <div class="dec3_2price">
+                      <p>Price</p>
+                      <p>6,000원</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
+          <div class="swiper-pagination pg4_3"></div>
           <div class="swiper-button-next next4_3"></div>
           <div class="swiper-button-prev prev4_3"></div>
         </article>
@@ -1248,28 +1359,190 @@
     <!-- section3 end -->
 
     <!-- section4 start -->
-    <section class="sec4"></section>
+    <section class="sec4">
+      <div class="sec4_subtitle">
+        <h3>Special Order</h3>
+        <p>스페셜 케이크</p>
+      </div>
+      <div class="swiper slide4">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="sec4img">
+              <img src="./img/스페셜2.png" alt="" />
+            </div>
+            <div class="sec4dec">
+              <div class="dec4title">
+                <p>스페셜 NO.1</p>
+                <p>
+                  <span
+                    >취향에 맞게 선택할 수 있는 2가지 base에 딸기로 데코된
+                    케이크</span
+                  >
+                  <span
+                    >촉촉한 초코 시트와 진한 다크초콜릿 크림이 조화로운 가나슈
+                    케이크</span
+                  >
+                  <span
+                    >상큼한 블루베리 소스와 치즈무스가 어루어진 블루베리 치즈
+                    케이크</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="sec4img">
+              <img src="./img/스페셜3.png" alt="" />
+            </div>
+            <div class="sec4dec">
+              <div class="dec4title">
+                <p>스페셜 NO.2</p>
+                <p>
+                  <span
+                    >취향에 맞게 선택할 수 있는 2가지 base에 딸기로 데코된
+                    케이크</span
+                  >
+                  <span
+                    >촉촉한 초코 시트와 진한 다크초콜릿 크림이 조화로운 가나슈
+                    케이크</span
+                  >
+                  <span
+                    >상큼한 블루베리 소스와 치즈무스가 어루어진 블루베리 치즈
+                    케이크</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="sec4img">
+              <img src="./img/스페셜4.png" alt="" />
+            </div>
+            <div class="sec4dec">
+              <div class="dec4title">
+                <p>스페셜 NO.3</p>
+                <p>
+                  <span
+                    >깊고 진한 스위스산 다크 초콜릿의 풍미가 입안 가득 퍼지는
+                    로얄쇼콜라</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="sec4img">
+              <img src="./img/스페셜5.png" alt="" />
+            </div>
+            <div class="sec4dec">
+              <div class="dec4title">
+                <p>스페셜 NO.4</p>
+                <p>
+                  <span
+                    >촉촉한 초코 시트와 진한 다크초콜릿 크림이 조화로운 가나슈
+                    케이크</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="sec4img">
+              <img src="./img/스페셜1.png" alt="" />
+            </div>
+            <div class="sec4dec">
+              <div class="dec4title">
+                <p>스페셜 NO.5</p>
+                <p>
+                  <span>
+                    1단과 2단의 케이크 종류를 다르게 제작할 수 있는 특별한
+                    케이크</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="sec4img">
+              <img src="./img/스페셜6.png" alt="" />
+            </div>
+            <div class="sec4dec">
+              <div class="dec4title">
+                <p>스페셜 NO.6</p>
+                <p>
+                  <span>
+                    1단과 2단 사이에 다리가 있어 더욱 높고 특별한 케이크</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="sec4img">
+              <img src="./img/메뉴스페셜1.png" alt="" />
+            </div>
+            <div class="sec4dec">
+              <div class="dec4title">
+                <p>스페셜 NO.7</p>
+                <p>
+                  <span> 3단이라 더욱 멋지고 웅장한 파티용 스페셜 케이크</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="sec4img">
+              <img src="./img/스페셜7.png" alt="" />
+            </div>
+            <div class="sec4dec">
+              <div class="dec4title">
+                <p>스페셜 NO.8</p>
+                <p>
+                  <span>
+                    진한 가나슈 초콜릿 시트에 화이트 초콜릿과 상큼한 딸기가 가득
+                    올려진 파티용 사각 가나슈</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next4"></div>
+        <div class="swiper-button-prev4"></div>
+      </div>
+      <div class="sec4_contact">
+        <p><span>주문 및 제품문의는</span></p>
+        <p><span>가까운 매장으로</span>연락 주세요.</p>
+        <div class="sec4_box">
+          <div class="box_img">
+            <img src="./img/가맹안내2.jpg" alt="" />
+          </div>
+          <p>매장찾기</p>
+          <a href="#"></a>
+        </div>
+      </div>
+    </section>
     <!-- section4 end -->
 
     <!-- footer start -->
-    <footer class="ft">
-      <div class="logo_ft">
-        <a href="#">
-          <img src="./img/logo_header-removebg-preview.png" alt="" />
-        </a>
-      </div>
-
-      <div id="footer" class="ft_address">
-        <p>
-          <span>주소 : </span> 경기 안양시 동안구 시민대로 401 대륭테크노타운
-          15차 B111호 (관양2동 224-5)
-        </p>
-        <p><span>(주)</span>한스제과</p>
-        <p><span>고객센터 : </span> 015 - 8504 - 3505</p>
-        <p><span>사업자등록번호 : </span> 241 - 88 - 53183</p>
-        <p>통신판매업신고 제 2013-경기안양-0039호</p>
-        <p><span>대표이사 : </span> 안영식, 한성훈, 안주태</p>
-        <p>Copyright 2011© HANS CAKE. All Right Reserved</p>
+    <footer id="footer" class="ft">
+      <div class="ft_con mw">
+        <div class="logo_ft">
+          <a href="#">
+            <img src="./img/logo_header-removebg-preview.png" alt="" />
+          </a>
+        </div>
+        <div class="ft_address">
+          <p>
+            <span>주소 : </span> 경기 안양시 동안구 시민대로 401 대륭테크노타운
+            15차 B111호 (관양2동 224-5) <span>(주)</span>한스제과
+          </p>
+          <p><span>고객센터 : </span> 015 - 8504 - 3505</p>
+          <p><span>사업자등록번호 : </span> 241 - 88 - 53183</p>
+          <p>통신판매업신고 제 2013-경기안양-0039호</p>
+          <p><span>대표이사 : </span> 안영식, 한성훈, 안주태</p>
+          <p class="copyright">Copyright 2011© HANS CAKE. All Right Reserved</p>
+        </div>
       </div>
     </footer>
     <!-- footer end -->
@@ -1385,6 +1658,14 @@
         },
         pagination: {
           el: ".pg4_3",
+        },
+      });
+    </script>
+    <script>
+      var swiper1 = new Swiper(".slide4", {
+        navigation: {
+          nextEl: ".next4",
+          prevEl: ".prev4",
         },
       });
     </script>
