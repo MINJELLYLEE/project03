@@ -142,7 +142,6 @@ nav .ham {
 }
 
 .sec1_subtitle {
-  padding-top: 2rem;
   /* border: 1px solid blue; */
 }
 .sec1_subtitle h3 {
@@ -185,6 +184,77 @@ nav .ham {
 .sec1_slide article.on {
   display: block;
 }
+.sec1_dec {
+  text-align: center;
+}
+.sec1_slide .swiper-wrapper li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid orange; */
+}
+.sec1_slide .swiper-wrapper li .sec1_img {
+  /* border: 1px solid blue; */
+  margin-right: 3rem;
+}
+.sec1_slide .swiper-wrapper li .sec1_dec {
+  /* border: 1px solid blue; */
+  margin-left: 3rem;
+}
+.dec1_title .T1 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.dec1_title .T2 {
+  /* border: 1px solid red; */
+  padding-top: 0.5rem;
+}
+.dec1_title .T2 span {
+  display: block;
+  font-size: 14px;
+  color: var(--font-c2);
+}
+
+.dec1_price {
+  /* border: 1px solid blue; */
+  padding-top: 1rem;
+  text-align: left;
+}
+.dec1_price .P1 {
+  color: var(--main-c2);
+  font-size: 18px;
+  font-weight: bolder;
+}
+.dec1_price p,
+.dec1_price p > span {
+  font-size: 14px;
+  color: var(--font-c2);
+}
+
+.dec1_material {
+  /* border: 1px solid blue; */
+  padding-top: 2rem;
+}
+.dec1_material .dec1_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dec1_material p {
+  text-align: left;
+  color: var(--main-c2);
+  font-size: 18px;
+  font-weight: bolder;
+}
+.dec1_material img {
+  /* border: 1px solid blue; */
+  padding: 0.5rem 1rem;
+}
+.dec1_material div > span {
+  display: block;
+  /* border: 1px solid blue; */
+}
+
 /* sec1 end */
 
 /* footer start */
