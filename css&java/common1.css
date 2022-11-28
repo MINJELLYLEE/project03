@@ -254,9 +254,32 @@ nav .ham {
   display: block;
   /* border: 1px solid blue; */
 }
-
+.next1_1,
+.next2_1,
+.next3_1,
+.prev1_1,
+.prev2_1,
+.prev3_1 {
+  color: var(--main-c1);
+}
 /* sec1 end */
 
+/* sec2 start */
+.sec2 {
+  /* border: 1px solid blue; */
+  margin-top: 100px;
+}
+.sec2_subtitle {
+  /* border: 1px solid blue; */
+}
+.sec2_subtitle h3 {
+  color: var(--main-c2);
+  font-size: 30px;
+}
+.sec2_subtitle > p {
+  font-size: 18px;
+}
+/* sec2 end */
 /* footer start */
 .ft {
   background-color: white;
@@ -278,8 +301,90 @@ nav .ham {
   padding-top: 0.5rem;
   font-weight: bold;
 }
+.sec2_btn {
+  /* display: flex;
+  justify-content: flex-end; */
+}
+.sec2_btn button {
+  display: block;
+  background-color: var(--main-c1);
+  border: none;
+  color: var(--font-c3);
+  width: 150px;
+  height: 70px;
+  border-radius: 30px 0 30px 0;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+.sec2_slide {
+  /* border: 1px solid blue; */
+  width: 80%;
+  margin-top: -30%;
+  margin-left: 15%;
+}
+.sec2_btn button.on {
+  background-color: var(--main-c2);
+}
+.sec2_btn span {
+  display: block;
+}
+.sec2_slide article {
+  display: none;
+  position: relative;
+}
+.sec2_slide article.on {
+  display: block;
+}
+.sec2_slide .swiper-wrapper li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.sec2_slide .dec2_title {
+  /* border: 1px solid tomato; */
+  padding: 5rem 0;
+  margin: 5rem 0;
+}
+.dec2_title .T1_2 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.dec2_title .T2_2 {
+  padding-top: 0.5rem;
+}
+.dec2_title .T2_2 span {
+  display: block;
+  font-size: 14px;
+  color: var(--font-c2);
+}
+.dec2_price {
+  /* border: 1px solid blue; */
+  padding-top: 2rem;
+}
+.dec2_price .P2 {
+  color: var(--main-c2);
+  font-size: 18px;
+  font-weight: bolder;
+}
+.sec2_Pimg > img {
+  /* border: 1px solid red; */
+  width: 60%;
+}
+.next1_2,
+.next2_2,
+.next3_2,
+.next4_2,
+.next5_2,
+.prev1_2,
+.prev2_2,
+.prev3_2,
+.prev4_2,
+.prev5_2 {
+  color: var(--main-c1);
+}
 /* footer end */
-.sec2,
+
 .sec3,
 .sec4 {
   display: none;

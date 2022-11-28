@@ -6,3 +6,12 @@ $(function () {
     $(".sec1_slide>article").eq(btn_index1).addClass("on");
   });
 });
+
+$(function () {
+  $(".sec2_btn>button").click(function () {
+    let btn_index2 = $(this).index();
+    $(".sec2_btn>button, .sec2_slide>article").removeClass("on");
+    $(this).addClass("on");
+    $(".sec2_slide>article").eq(btn_index2).addClass("on");
+  });
+});
