@@ -15,3 +15,12 @@ $(function () {
     $(".sec2_slide>article").eq(btn_index2).addClass("on");
   });
 });
+
+$(function () {
+  $(".sec3_btn>button").click(function () {
+    let btn_index3 = $(this).index();
+    $(".sec3_btn>button, .sec3_slide>article").removeClass("on");
+    $(this).addClass("on");
+    $(".sec3_slide>article").eq(btn_index3).addClass("on");
+  });
+});
