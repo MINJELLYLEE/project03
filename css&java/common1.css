@@ -32,21 +32,23 @@ body {
   background-color: var(--bg);
 }
 /* floating start */
-.floating {
-  position: fixed;
-  z-index: 999;
-  top: 180px;
-  width: 50px;
-  right: 5%;
-}
-.floating > div {
-  /* border: 1px solid blue; */
-  margin-bottom: 2px;
-}
-.floating img {
-  width: 100%;
-  background-color: var(--main-c1);
-  padding: 0.5rem;
+@media (min-width: 601px) {
+  .floating {
+    position: fixed;
+    z-index: 999;
+    top: 180px;
+    width: 50px;
+    right: 5%;
+  }
+  .floating > div {
+    /* border: 1px solid blue; */
+    margin-bottom: 2px;
+  }
+  .floating img {
+    width: 100%;
+    background-color: var(--main-c1);
+    padding: 0.5rem;
+  }
 }
 /* floating end */
 
@@ -643,4 +645,223 @@ nav .ham {
 }
 /* footer end */
 
-/* footer end */
+@media (max-width: 600px) {
+  .floating {
+    display: none;
+  }
+  .hd nav .gnb {
+    display: none;
+  }
+  .hd .ham {
+    display: block;
+  }
+  .sec1_subtitle {
+    /* border: 1px solid blue; */
+    top: 20%;
+    text-align: center;
+  }
+  .sec1_btn {
+    padding-top: 50%;
+  }
+  .sec1_slide {
+    margin-top: 5rem;
+  }
+  .sec1_slide .swiper-wrapper li {
+    display: block;
+  }
+  .sec1_img img {
+    /* border: 1px solid blue; */
+    width: 100%;
+    margin: 0 45px;
+  }
+  .valrhona {
+    width: 80%;
+    margin-left: 45px;
+  }
+  .dec1_price {
+    display: none;
+  }
+  .dec1_material p {
+    display: none;
+  }
+  .sec1_dec {
+    /* border: 1px solid blue; */
+    margin-right: 10%;
+  }
+  .pg1_1,
+  .pg2_1,
+  .pg3_1,
+  .next1_1,
+  .next2_1,
+  .next3_1,
+  .prev1_1,
+  .prev2_1,
+  .prev3_1 {
+    display: none;
+  }
+
+  /* sec2 start */
+  .sec2_subtitle {
+    text-align: center;
+  }
+  .sec2_btn {
+    padding: 10% 0 30% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sec2_btn button {
+    width: calc(100% / 3 - 1rem);
+    margin: 5px 5px;
+    height: 70px;
+    font-size: 1.3rem;
+    /* border: 1px solid blue; */
+  }
+
+  .sec2_slide .swiper-wrapper li {
+    top: 100px;
+    /* border: 1px solid green; */
+    display: block;
+  }
+  .sec2_img img {
+    /* border: 1px solid blue; */
+    width: 80%;
+  }
+  .sec2_dec {
+    /* border: 1px solid red; */
+  }
+  .T1_2 {
+    /* border: 1px solid blue; */
+    margin-top: -45%;
+  }
+  .dec2_price {
+    display: none;
+  }
+  .next1_2,
+  .next2_2,
+  .next3_2,
+  .next4_2,
+  .next5_2,
+  .prev1_2,
+  .prev2_2,
+  .prev3_2,
+  .prev4_2,
+  .prev5_2 {
+    display: none;
+  }
+
+  .ft_con {
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .ft_address {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .floating {
+    display: none;
+  }
+  .hd nav .gnb {
+    display: none;
+  }
+  .hd .ham {
+    display: block;
+  }
+  .sec1_subtitle {
+    /* border: 1px solid blue; */
+    top: 20%;
+    left: 40%;
+  }
+  .sec1_btn {
+    padding-top: 50%;
+  }
+  .sec1_slide {
+    margin-top: 5rem;
+  }
+  .sec1_slide .swiper-wrapper li {
+    display: block;
+  }
+  .sec1_img img {
+    /* border: 1px solid blue; */
+    width: 100%;
+    margin: 0 45px;
+  }
+  .valrhona {
+    width: 80%;
+    margin-left: 45px;
+  }
+  .dec1_price {
+    display: none;
+  }
+  .dec1_material p {
+    display: none;
+  }
+  .sec1_dec {
+    /* border: 1px solid blue; */
+    margin-right: 10%;
+  }
+  .pg1_1,
+  .pg2_1,
+  .pg3_1,
+  .next1_1,
+  .next2_1,
+  .next3_1,
+  .prev1_1,
+  .prev2_1,
+  .prev3_1 {
+    display: none;
+  }
+  .sec2_subtitle {
+    text-align: center;
+  }
+  .sec2_btn {
+    padding: 10% 0 30% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sec2_btn button {
+    width: calc(100% / 3 - 1rem);
+    margin: 5px 5px;
+    height: 70px;
+    font-size: 1.3rem;
+    /* border: 1px solid blue; */
+  }
+
+  .sec2_slide .swiper-wrapper li {
+    top: 100px;
+    /* border: 1px solid green; */
+    display: block;
+  }
+  .sec2_img img {
+    /* border: 1px solid blue; */
+    width: 80%;
+  }
+  .sec2_dec {
+    /* border: 1px solid red; */
+  }
+  .T1_2 {
+    /* border: 1px solid blue; */
+    margin-top: -45%;
+  }
+  .dec2_price {
+    display: none;
+  }
+  .next1_2,
+  .next2_2,
+  .next3_2,
+  .next4_2,
+  .next5_2,
+  .prev1_2,
+  .prev2_2,
+  .prev3_2,
+  .prev4_2,
+  .prev5_2 {
+    display: none;
+  }
+}
