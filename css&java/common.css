@@ -631,3 +631,42 @@ nav .ham {
     left: 25%;
   }
 }
+
+/* mega_menu */
+.fullscreen_menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.menu_wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -82px 0 0 -35px;
+}
+
+.menu_wrap li {
+  padding: 10px;
+  list-style: none;
+}
+
+.menu_wrap a {
+  display: inline-block;
+  color: var(--font-c3);
+  text-decoration: none;
+}
+
+.ham_close {
+  text-align: right;
+}
+
+.ham_close a {
+  display: inline-block;
+  color: var(--font-c3);
+  margin: 10px;
+}

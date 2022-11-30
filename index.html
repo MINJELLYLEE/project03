@@ -17,6 +17,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./css&java/HANS_MAIN.js" defer></script>
     <link rel="stylesheet" href="./css&java/my_reset.css" />
     <link rel="stylesheet" href="./css&java/common.css" />
   </head>
@@ -48,7 +55,7 @@
               </ul>
             </li>
             <li>
-              <a href="#">메뉴</a>
+              <a href="./index_sub.html">메뉴</a>
               <ul class="sub">
                 <li><a href="#">케이크</a></li>
                 <li><a href="#">디저트</a></li>
@@ -78,6 +85,47 @@
             <a href="#">
               <i class="fa-solid fa-bars"></i>
             </a>
+          </div>
+          <div class="fullscreen_menu">
+            <div class="ham_close">
+              <a href="#"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+            <ul class="menu_wrap">
+              <li>
+                <a href="#">HANS</a>
+                <ul class="sub">
+                  <li><a href="#">브랜드 소개</a></li>
+                  <li><a href="#">연혁</a></li>
+                  <li><a href="#">오시는 길</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="./index_sub.html">메뉴</a>
+                <ul class="sub">
+                  <li><a href="#">케이크</a></li>
+                  <li><a href="#">디저트</a></li>
+                  <li><a href="#">음료</a></li>
+                  <li><a href="#">스페셜케이크</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">매장</a>
+                <ul class="sub">
+                  <li><a href="#">매장찾기</a></li>
+                  <li><a href="#">가맹안내</a></li>
+                  <li><a href="#">창업문의</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">커뮤니티</a>
+                <ul class="sub">
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">이벤트</a></li>
+                  <li><a href="#">F&Q</a></li>
+                  <li><a href="#">인스타그램</a></li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </nav>
       </header>
@@ -287,39 +335,5 @@
       </footer>
     </div>
     <!-- footer end -->
-    <script>
-      var swiper = new Swiper(".slide1", {
-        navigation: {
-          nextEl: ".next1",
-          prevEl: ".prev1",
-        },
-        pagination: {
-          el: ".pg1",
-        },
-        loop: true,
-        loopAdditionalSlides: 1,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-      });
-    </script>
-    <script>
-      var swiper = new Swiper(".slide2", {
-        navigation: {
-          nextEl: ".next2",
-          prevEl: ".prev2",
-        },
-        pagination: {
-          el: ".pg2",
-        },
-        loop: true,
-        loopAdditionalSlides: 1,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-      });
-    </script>
   </body>
 </html>
