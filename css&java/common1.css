@@ -491,7 +491,6 @@ nav .ham {
 /* sec4 start */
 .sec4 {
   /* border: 1px solid blue; */
-  margin-top: 100px;
   position: relative;
 }
 .sec4_wrap {
@@ -501,7 +500,7 @@ nav .ham {
 }
 .sec4_subtitle {
   /* border: 1px solid blue; */
-  padding-bottom: 2rem;
+  padding: 5rem 0 2rem 0;
 }
 .sec4_subtitle h3 {
   color: var(--main-c2);
@@ -512,8 +511,8 @@ nav .ham {
 }
 .sec4 .slide4 {
   margin-left: 3rem;
-  width: 60%;
-  height: 45vh;
+  width: 800px;
+  height: auto;
   background-color: white;
   border-radius: 10px;
 }
@@ -752,6 +751,7 @@ nav .ham {
 
   /* sec3 start */
   .sec3_subtitle {
+    margin-top: -100px;
     text-align: center;
   }
   .sec3_btn {
@@ -812,7 +812,7 @@ nav .ham {
   /* sec4 start */
   .sec4 {
     /* border: 1px solid red; */
-    margin-top: 60%;
+    /* top: -50px; */
   }
   .sec4_subtitle {
     text-align: center;
@@ -823,10 +823,7 @@ nav .ham {
   .sec4 .slide4 .swiper-wrapper .swiper-slide {
     display: block;
   }
-  .sec4 .slide4 {
-    width: 80%;
-    height: auto;
-  }
+
   .sec4img {
     margin-left: 0;
   }
@@ -982,7 +979,7 @@ nav .ham {
   /* sec4 */
   .sec4 {
     /* border: 1px solid red; */
-    margin-top: 60%;
+    /* margin-top: 60%; */
   }
   .sec4_subtitle {
     text-align: center;
@@ -1056,6 +1053,7 @@ nav .ham {
 }
 
 .menu_wrap a {
+  font-size: 20px;
   display: inline-block;
   color: var(--font-c3);
   text-decoration: none;
@@ -1069,4 +1067,7 @@ nav .ham {
   display: inline-block;
   color: var(--font-c3);
   margin: 10px;
+}
+.ham_close > a {
+  font-size: 40px;
 }

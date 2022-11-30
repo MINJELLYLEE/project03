@@ -240,6 +240,10 @@ nav .ham {
 .sec2 .menu_dec2 {
   /* border: 1px solid blue; */
   padding: 1.5rem 0;
+  text-align: left;
+}
+.sec2 .menu_dec2 span {
+  display: block;
 }
 
 .sec2 .swiper-slide img {
@@ -656,6 +660,7 @@ nav .ham {
 }
 
 .menu_wrap a {
+  font-size: 20px;
   display: inline-block;
   color: var(--font-c3);
   text-decoration: none;
@@ -669,4 +674,8 @@ nav .ham {
   display: inline-block;
   color: var(--font-c3);
   margin: 10px;
+}
+
+.ham_close > a {
+  font-size: 40px;
 }

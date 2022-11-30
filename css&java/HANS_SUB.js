@@ -32,7 +32,7 @@ $(function () {
     $(".fullscreen_menu").fadeIn();
   });
   $(".ham_close>a").on("click", function () {
-    $(".fullscreen_menu").hide();
+    $(".fullscreen_menu").fadeOut();
   });
 });
 

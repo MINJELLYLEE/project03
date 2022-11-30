@@ -1,11 +1,14 @@
+// mega menu
 $(function () {
   $(".ham>a").on("click", function () {
     $(".fullscreen_menu").fadeIn();
   });
   $(".ham_close>a").on("click", function () {
-    $(".fullscreen_menu").hide();
+    $(".fullscreen_menu").fadeOut();
   });
 });
+
+// swiper slide
 
 var swiper = new Swiper(".slide1", {
   navigation: {
