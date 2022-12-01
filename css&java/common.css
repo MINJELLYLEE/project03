@@ -47,6 +47,7 @@ body {
     cursor: pointer;
   }
   .floating img {
+    border-radius: 5px;
     width: 100%;
     background-color: var(--main-c1);
     padding: 0.5rem;
@@ -186,7 +187,7 @@ nav .ham {
 
 /* sec2 start */
 .sec2 {
-  /* border: 1px solid red; */
+  /* border-top: 3px solid var(--main-c2); */
   margin-top: 100px;
 }
 .sec2 .sec2_title {
@@ -273,8 +274,8 @@ nav .ham {
 
 /* sec3 start */
 .sec3 {
-  /* border: 1px solid red; */
   margin-top: 100px;
+  /* border-top: 3px solid var(--main-c2); */
 }
 .sec3 .sec3_title {
   /* border: 1px solid green; */
@@ -350,8 +351,8 @@ nav .ham {
 
 /* sec4 start */
 .sec4 {
-  /* border: 1px solid red; */
   margin-top: 100px;
+  /* border-top: 3px solid var(--main-c2); */
 }
 .sec4 .sec4_title {
   /* border: 1px solid green; */

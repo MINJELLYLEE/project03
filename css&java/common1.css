@@ -45,6 +45,7 @@ body {
     margin-bottom: 2px;
   }
   .floating img {
+    border-radius: 5px;
     width: 100%;
     background-color: var(--main-c1);
     padding: 0.5rem;
@@ -131,6 +132,7 @@ nav .ham {
 /* sec1 start */
 .sec1 {
   position: relative;
+  /* border-bottom: 1px solid var(--main-c2); */
 }
 .sec1_title {
   text-align: center;
@@ -275,8 +277,9 @@ nav .ham {
 
 /* sec2 start */
 .sec2 {
-  /* border: 1px solid blue; */
+  border-top: 5px solid var(--main-c2);
   margin-top: 100px;
+  padding-top: 50px;
 }
 .sec2_subtitle {
   /* border: 1px solid blue; */
@@ -378,7 +381,9 @@ nav .ham {
 /* sec3 start */
 .sec3 {
   /* border: 1px solid blue; */
+  border-top: 5px solid var(--main-c2);
   margin-top: 100px;
+  padding-top: 50px;
 }
 .sec3_subtitle {
   /* border: 1px solid blue; */
@@ -492,6 +497,7 @@ nav .ham {
 .sec4 {
   /* border: 1px solid blue; */
   position: relative;
+  border-top: 5px solid var(--main-c2);
 }
 .sec4_wrap {
   display: flex;
@@ -500,7 +506,7 @@ nav .ham {
 }
 .sec4_subtitle {
   /* border: 1px solid blue; */
-  padding: 5rem 0 2rem 0;
+  padding: 2rem 0 2rem 0;
 }
 .sec4_subtitle h3 {
   color: var(--main-c2);
@@ -750,8 +756,11 @@ nav .ham {
   }
 
   /* sec3 start */
+  .sec3 {
+    padding-bottom: 100px;
+  }
   .sec3_subtitle {
-    margin-top: -100px;
+    margin-top: 0;
     text-align: center;
   }
   .sec3_btn {
