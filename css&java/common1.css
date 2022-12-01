@@ -26,7 +26,7 @@ html {
   --font-c1: #1b1b1b;
   --font-c2: #4c4c4c;
   --font-c3: #ffffff;
-  --bg: #f7efec;
+  --bg: #fffaf9;
 }
 body {
   background-color: var(--bg);
