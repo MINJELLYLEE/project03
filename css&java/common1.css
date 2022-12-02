@@ -576,6 +576,8 @@ nav .ham {
 }
 .sec4img img {
   width: 90%;
+  /* border-radius: 20%; */
+  /* box-shadow: 20px 20px 20px #eaeaea; */
 }
 .next4,
 .prev4 {

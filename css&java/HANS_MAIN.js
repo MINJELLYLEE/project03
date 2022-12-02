@@ -41,3 +41,15 @@ var swiper = new Swiper(".slide2", {
     disableOnInteraction: false,
   },
 });
+
+// go top button
+$(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 650) {
+      $(".floating").fadeIn();
+      $(".floating").css($(".sec2").offset().left);
+    } else {
+      $(".floating").fadeOut();
+    }
+  });
+});
